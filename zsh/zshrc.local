@@ -1,0 +1,6 @@
+# Disable weird behaviour from grml-zsh-config. Without this, when using the
+# arrow keys to navigate the shells history when one has already typed a few
+# characters on the prompt, only the parts of the history starting with those
+# characters is traversed.
+[[ -n "${key[Up]}"      ]]  && bindkey  "${key[Up]}"      up-line-or-history
+[[ -n "${key[Down]}"    ]]  && bindkey  "${key[Down]}"    down-line-or-history

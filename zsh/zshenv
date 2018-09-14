@@ -1,0 +1,5 @@
+if [[ -n "$XDG_CONFIG_HOME" ]]; then
+    export ZDOTDIR="$XDG_CONFIG_HOME"/zsh
+else
+    export ZDOTDIR="$HOME"/.config/zsh
+fi

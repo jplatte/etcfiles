@@ -9,6 +9,7 @@
 !vconsole.conf
 
 !zsh
+!zsh/zshenv
 !zsh/zshrc.local
 
 !X11

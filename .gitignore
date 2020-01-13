@@ -1,17 +1,1 @@
 *
-
-!.gitignore
-
-!locale.conf
-!locale.gen
-!localtime
-!pacman.conf
-!vconsole.conf
-
-!zsh
-!zsh/zshenv
-!zsh/zshrc.local
-
-!X11
-!X11/xorg.conf.d
-!X11/xorg.conf.d/*
